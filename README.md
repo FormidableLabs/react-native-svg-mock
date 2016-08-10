@@ -1,4 +1,6 @@
-# react-native-svg-mock
+[![Build Status](https://travis-ci.org/FormidableLabs/react-native-svg-mock.svg?branch=master)](https://travis-ci.org/FormidableLabs/react-native-svg-mock.svg) [![npm version](https://badge.fury.io/js/react-native-svg-mock.svg)](https://badge.fury.io/js/react-native-svg-mock)
+
+# react-native-svg-mock 
 
 A mock implementation of [react-native-svg](https://github.com/magicismight/react-native-svg) for use in tests. Inspired by [react-native-mock](https://github.com/lelandrichardson/react-native-mock).
 
