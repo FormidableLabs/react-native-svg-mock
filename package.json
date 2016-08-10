@@ -1,6 +1,6 @@
 {
   "name": "react-native-svg-mock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A mock implementation of react-native-svg for use in tests.",
   "main": "build/index.js",
   "scripts": {
