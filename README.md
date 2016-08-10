@@ -1,6 +1,6 @@
 # react-native-svg-mock
 
-A mock implementation of react-native-svg for use in tests.
+A mock implementation of react-native-svg for use in tests. Inspired by [react-native-mock](https://github.com/lelandrichardson/react-native-mock)
 
 ## Install
 
@@ -24,6 +24,7 @@ Or, with something like [Mockery](https://github.com/mfncooper/mockery), do:
 import mockery from "mockery";
 import reactNativeSvgMock from "react-native-svg-mock";
 
+mockery.enable();
 mockery.registerMock("react-native-svg", reactNativeSvgMock);
 ```
 
@@ -32,6 +33,7 @@ In a test with [Enzyme](https://github.com/airbnb/enzyme) and [Mocha](https://gi
 ```jsx
 import "react-native-mock/mock";
 import "react-native-svg-mock/mock";
+
 import { render } from "enzyme";
 import { expect } from "chai";
 
