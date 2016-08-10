@@ -1,0 +1,6 @@
+---
+"extends":
+  - "eslint-config-defaults/configurations/walmart/es5-test"
+
+"rules":
+  "no-magic-numbers": 0

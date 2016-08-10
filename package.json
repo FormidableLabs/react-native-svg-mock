@@ -1,0 +1,44 @@
+{
+  "name": "react-native-svg-mock",
+  "version": "1.0.0",
+  "description": "A mock implementation of react-native-svg for use in tests.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "mocha": "mocha test/test.js",
+    "test": "npm run lint && npm run mocha"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-native-svg",
+    "mock",
+    "testing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormidableLabs/react-native-svg-mock.git"
+  },
+  "author": "Brian Mathews <brian.mathews@formidable.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormidableLabs/react-native-svg-mock/issues"
+  },
+  "homepage": "https://github.com/FormidableLabs/react-native-svg-mock#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "enzyme": "^2.4.1",
+    "eslint": "^2.0.0",
+    "eslint-config-defaults": "^10.0.0-1",
+    "eslint-plugin-filenames": "^0.2.0",
+    "eslint-plugin-react": "^3.12.0",
+    "mocha": "^3.0.2",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-native-mock": "^0.2.5"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
