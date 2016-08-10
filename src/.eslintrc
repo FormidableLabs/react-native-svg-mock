@@ -1,0 +1,7 @@
+---
+"extends":
+  - "eslint-config-defaults/configurations/walmart/es6-react"
+
+"rules":
+  "no-magic-numbers": 0
+  "no-arrow-condition": 0
