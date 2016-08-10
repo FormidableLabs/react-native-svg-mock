@@ -1,6 +1,6 @@
 # react-native-svg-mock
 
-A mock implementation of react-native-svg for use in tests. Inspired by [react-native-mock](https://github.com/lelandrichardson/react-native-mock)
+A mock implementation of [react-native-svg](https://github.com/magicismight/react-native-svg) for use in tests. Inspired by [react-native-mock](https://github.com/lelandrichardson/react-native-mock).
 
 ## Install
 
