@@ -1,5 +1,9 @@
 # react-native-svg-mock changelog
 
+## 1.1.0 (2017-06-15)
+
+Add `TSpan` and `TextPath` mocks. Update `react-*` dependencies.
+
 ## 1.0.2 (2016-08-10)
 
 Fix automock path
