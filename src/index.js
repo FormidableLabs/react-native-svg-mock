@@ -23,6 +23,8 @@ const Circle = createComponent("Circle");
 const Ellipse = createComponent("Ellipse");
 const G = createComponent("G");
 const Text = createComponent("Text");
+const TextPath = createComponent("TextPath");
+const TSpan = createComponent("TSpan");
 const Path = createComponent("Path");
 const Polygon = createComponent("Polygon");
 const Polyline = createComponent("Polyline");
@@ -43,6 +45,8 @@ export {
   Ellipse,
   G,
   Text,
+  TextPath,
+  TSpan,
   Path,
   Polygon,
   Polyline,
