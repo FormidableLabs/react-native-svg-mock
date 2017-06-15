@@ -40,11 +40,11 @@
     "eslint-plugin-filenames": "^0.2.0",
     "eslint-plugin-react": "^6.1.1",
     "mocha": "^3.0.2",
-    "react": "~15.2.1",
-    "react-addons-test-utils": "~15.2.1",
-    "react-dom": "~15.2.1",
-    "react-native": "^0.31.0",
-    "react-native-mock": "^0.2.5"
+    "react": "^15.5.1",
+    "react-addons-test-utils": "^15.5.1",
+    "react-dom": "^15.5.1",
+    "react-native": "^0.45.0",
+    "react-native-mock": "^0.3.0"
   },
   "peerDependencies": {
     "react": "*",
