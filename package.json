@@ -48,6 +48,6 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "0.35.0"
   }
 }
