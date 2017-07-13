@@ -9,10 +9,6 @@ const createComponent = function (name) {
       children: React.PropTypes.node
     }
 
-    constructor() {
-      super();
-    }
-
     render() {
       const type = name[0].toLowerCase() + name.substr(1);
       return React.createElement(type, this.props, this.props.children);
