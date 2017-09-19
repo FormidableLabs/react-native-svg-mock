@@ -1,4 +1,4 @@
-import React from "react-native";
+import React from "react";
 
 // Create a vanilla SVG component
 const createComponent = function (name) {
