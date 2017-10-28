@@ -40,6 +40,7 @@
     "eslint-plugin-filenames": "^0.2.0",
     "eslint-plugin-react": "^6.1.1",
     "mocha": "^3.0.2",
+    "prop-types": "^15.6.0",
     "react": "^15.5.1",
     "react-addons-test-utils": "^15.5.1",
     "react-dom": "^15.5.1",
@@ -47,6 +48,7 @@
     "react-native-mock": "^0.3.0"
   },
   "peerDependencies": {
+    "prop-types": "*",
     "react": "*",
     "react-native": "*"
   }
