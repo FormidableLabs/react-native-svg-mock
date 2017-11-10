@@ -3,8 +3,8 @@ var React = require("react");
 var ReactNativeSvg = require("../");
 
 var expect = require("chai").expect;
-const enzyme = require("enzyme");
-const Adapter = require("enzyme-adapter-react-16");
+var enzyme = require("enzyme");
+var Adapter = require("enzyme-adapter-react-16");
 
 enzyme.configure({ adapter: new Adapter() });
 
