@@ -1,6 +1,6 @@
 ---
 "extends":
-  - "eslint-config-defaults/configurations/walmart/es6-react"
+  - "formidable/configurations/es6-react"
 
 "rules":
   "no-magic-numbers": 0

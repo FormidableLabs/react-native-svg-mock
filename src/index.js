@@ -1,4 +1,5 @@
-import React from "react-native";
+import React from "react";
+import PropTypes from "prop-types";
 
 // Create a vanilla SVG component
 const createComponent = function (name) {
@@ -6,7 +7,7 @@ const createComponent = function (name) {
     static displayName =name
 
     static propTypes = {
-      children: React.PropTypes.node
+      children: PropTypes.node
     }
 
     render() {

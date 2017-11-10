@@ -1,6 +1,6 @@
 ---
 "extends":
-  - "eslint-config-defaults/configurations/walmart/es5-test"
+- "formidable/configurations/es6-react"
 
 "rules":
   "no-magic-numbers": 0

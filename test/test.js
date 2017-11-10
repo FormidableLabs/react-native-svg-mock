@@ -1,10 +1,12 @@
-require("react-native-mock/mock");
 
-var React = require("react-native");
+var React = require("react");
 var ReactNativeSvg = require("../");
 
 var expect = require("chai").expect;
-var render = require("enzyme").render;
+const enzyme = require("enzyme");
+const Adapter = require("enzyme-adapter-react-16");
+
+enzyme.configure({ adapter: new Adapter() });
 
 describe("mock", function () {
   it("requires", function () {
@@ -14,7 +16,7 @@ describe("mock", function () {
   it("renders", function () {
     for (var prop in ReactNativeSvg) {
       var comp = ReactNativeSvg[prop];
-      render(React.createElement(comp));
+      enzyme.render(React.createElement(comp));
     }
   });
 });
